@@ -3,11 +3,67 @@
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
   }
+
+  .flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: pink;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #searchbar {
+    gap: 5px;
+  }
+
+  #header-top-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    max-height: 70px;
+  }
+
+  #loupe {
+    height: 20px;
+  }
+
+  .profile-picture {
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  #header-user {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+  }
+
+  .user-info {
+   
+    text-align: left;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  #header-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   .sidebar {
