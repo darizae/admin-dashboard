@@ -1,0 +1,9 @@
+- Set sidebar layout and content
+
+- Style header and position elements correctly
+
+- Style sidebar
+
+- Set project's layout
+
+- Style projects
