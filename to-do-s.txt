@@ -2,6 +2,8 @@
 
 - Style header and position elements correctly
 
+- Add icons to sidebar
+
 - Style sidebar
 
 - Set project's layout
