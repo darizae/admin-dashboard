@@ -1,5 +1,3 @@
-- Set sidebar layout and content
-
 - Style header and position elements correctly
 
 - Add icons to sidebar
