@@ -133,4 +133,43 @@
 .card {
   border: solid black;
 }
+
+#right-side {
+  display: grid;
+  padding: 15px;
+}
+
+#announcements,
+#trending {
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+  margin: 5px;
   
+}
+
+#announcements-content,
+#trending-content {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: grid;
+}
+
+.ann-content,
+.tren-content{
+  border-bottom: 1px solid gray;
+}
+
+.ann-content:last-child,
+.trend-content:last-child {
+  border-bottom: none;
+}
+
+.content-title {
+  font-weight: bold;
+}
+
+.content-text {
+  color: gray;
+}

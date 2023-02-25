@@ -1,3 +1,5 @@
+- Set up grid in right part of projects div
+
 - Style header and position elements correctly
 
 - Add icons to sidebar
